@@ -1,25 +1,25 @@
 class Casemap < Formula
   desc "The living map of your app's use cases: check, render and diff Mermaid flows"
   homepage "https://github.com/Ross-cripto/casemap"
-  version "0.5.0"
+  version "0.5.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Ross-cripto/casemap/releases/download/v0.5.0/casemap-aarch64-apple-darwin.tar.xz"
-      sha256 "327c8f7c2b1386d7bb2ab8d238a36d93b3db73572da61285e4c3d50374777bfd"
+      url "https://github.com/Ross-cripto/casemap/releases/download/v0.5.1/casemap-aarch64-apple-darwin.tar.xz"
+      sha256 "3da25b1b4b0ba76a20cd2d20a6c452ebd745b55a4fa1cfd24fe3b510931e5877"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Ross-cripto/casemap/releases/download/v0.5.0/casemap-x86_64-apple-darwin.tar.xz"
-      sha256 "773b4031234aa120529db111dd92aad1a45f2a639cc92c50926d746bc2f7fab2"
+      url "https://github.com/Ross-cripto/casemap/releases/download/v0.5.1/casemap-x86_64-apple-darwin.tar.xz"
+      sha256 "2b9dcc6824c7e3aecadb140edb9865a4526978ee92130872ad838d15bc372afa"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Ross-cripto/casemap/releases/download/v0.5.0/casemap-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "bdda2c6aa67eb6f640c74dca1619e48212e1b9dbad82a4c1a2d664c83dd3c1c0"
+      url "https://github.com/Ross-cripto/casemap/releases/download/v0.5.1/casemap-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "5cbee6644df709203e9013ec18b01e21ab9d7c0b45ab105f93d3b6d88b71c94d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Ross-cripto/casemap/releases/download/v0.5.0/casemap-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "7757d6e65f090551e347e5feec7096ba0016b216f6e61f12a42cdfe0f726cf15"
+      url "https://github.com/Ross-cripto/casemap/releases/download/v0.5.1/casemap-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "23dff64176c0c2ee53ad53f1a7501cc3eccfafeab160196e815da3ce9e031107"
     end
   end
   license "MIT"
